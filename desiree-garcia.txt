@@ -13,7 +13,7 @@ Link to finished codepen: https://codepen.io/DesireeG/pen/oNwbyZO?editors=1100
     6. What do we put in the head of our HTML document? 
         <title>, <meta>, <link>, <style>
     7. What is an id? 
-        Title s that can only appear on a single element.
+        A unique identifier which must be unique in the whole document.
     8. What elements can I add an id to? 
         HTML elements
     9. How many times can I use the same id on a page? 
@@ -23,6 +23,7 @@ Link to finished codepen: https://codepen.io/DesireeG/pen/oNwbyZO?editors=1100
     11. What elements can I add a class to? 
         HTML elements
     12. How many times can I use the same class on a page? 
+        multiple times
     13. How do I get my link to open in a new tab?
         target="_blank"
     14. What is the alt attribute in the image tag used for? 
@@ -44,8 +45,13 @@ Link to finished codepen: https://codepen.io/DesireeG/pen/oNwbyZO?editors=1100
     21. How do we select a p element with a single class of “human””?
         .human p { }
     22. What is a parent child selector? When would this be useful? 
+        A parent selector would be the main html element and the child selector would be the 
+        html nested inside that element. This would be useful because we wouldt have to change
+        everything inside one element.
     23. How do you select all links within a div with the class of sidebar?
+        div.sidebar { }
     24. What is a pseudo selector?
+        A selector that selects elements that are in a specific state such as hover.
     25. What do we use the change the spacing between lines?
         line-height: 1.6;
     26. What do we use to change the spacing between letters?
